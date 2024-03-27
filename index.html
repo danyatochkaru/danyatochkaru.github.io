@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>danyatochka.ru website</title>
+    <meta name="description" content="danyatochkaru website. Профессиональный Full Stack Web-программист. Пишу сайты, управляю проетами и коллективом.">
+    <meta name="keywords" content="danyatochkaru,danyatochka,danya tocka ru,danya,web,website,site,сайт,сайты,веб,даняточкару,даняточка,frontend,backend,fullstack,web-программист,проект,проекты">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 16px;
+            height: 100vh;
+            width: 100vw;
+            padding: 60px 8%;
+            background-color: #8DAFC0;
+            color: #222;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10%;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .logo {
+            user-select: none;
+            font-size: 20px;
+            font-weight: 600;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 2px;
+        }
+
+        .logo__dot {
+            height: 1em;
+            width: 1em;
+            background-color: #222;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .logo__dot marquee {
+            transform: rotate(-8deg);
+            font-size: 16px;
+            line-height: 16px;
+            height: 100%;
+            width: 100%;
+            color: #F3F1EF;
+        }
+
+        main {
+            flex: 1;
+        }
+        
+        main > p {
+          cursor: default;
+        }
+
+        .main__description {
+            font-weight: 400;
+        }
+
+        footer {
+            user-select: none;            
+        }
+        
+        .footer__nav {
+            font-weight: 500;
+            width: fit-content;
+        }
+        
+        .footer__nav img {
+            vertical-align: middle;
+            height: 16px;
+            border-radius: 4px;
+            margin-right: 4px;
+        }
+
+        .footer__nav a:hover {
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header__logo logo">
+            Даня
+            <span class="logo__dot">
+                <marquee scrollamount="2" direction="right">ru</marquee>
+            </span>
+        </div>
+    </header>
+    <main>
+        <p class="main__description"><a href="https://ru.wikipedia.org/wiki/Node.js" target="_blank"
+                rel="noopener noreferrer">Node.js</a> программист.</p>
+        <br>
+        <p title="TypeScript, React, Express, Nginx, NextJS, NestJS">Пишу сайты, управляю проектами, иногда отдыхаю.</p>
+    </main>
+    <footer>
+        <nav class="footer__nav">
+            <a href="https://piybeep.com" title="Piybeep" target="_blank"><img src="assets/piybeep.jpg" alt="piybeep icon" />Студия</a>
+            <a href="https://github.com/danyatochkaru" title="danyatochkaru" target="_blank" rel="noopener noreferrer">Гитхаб</a>
+            <a href="https://t.me/danyatochkaru" title="@danyatochkaru" target="_blank" rel="noopener noreferrer">Телеграм</a>
+            <a href="mailto:support@danyatochka.ru" title="support@danyatochka.ru">Почта</a>
+        </nav>
+    </footer>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(91397941, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/91397941" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>
+
+</html>
